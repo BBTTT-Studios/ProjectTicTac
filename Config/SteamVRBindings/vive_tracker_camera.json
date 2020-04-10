@@ -8,13 +8,24 @@
 		{
 			"sources": [
 				{
-					"mode": "trackpad",
-					"path": "/user/hand/right/input/trackpad",
+					"mode": "button",
+					"path": "/user/hand/left/input/grip",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/TeleportRight"
+							"output": "/actions/main/in/GrabLeft"
+						}
+					}
+				},
+				{
+					"mode": "button",
+					"path": "/user/hand/right/input/grip",
+					"inputs":
+					{
+						"click":
+						{
+							"output": "/actions/main/in/GrabRight"
 						}
 					}
 				},
@@ -30,24 +41,13 @@
 					}
 				},
 				{
-					"mode": "trigger",
-					"path": "/user/hand/left/input/trigger",
+					"mode": "trackpad",
+					"path": "/user/hand/right/input/trackpad",
 					"inputs":
 					{
 						"click":
 						{
-							"output": "/actions/main/in/GrabLeft"
-						}
-					}
-				},
-				{
-					"mode": "trigger",
-					"path": "/user/hand/right/input/trigger",
-					"inputs":
-					{
-						"click":
-						{
-							"output": "/actions/main/in/GrabRight"
+							"output": "/actions/main/in/TeleportRight"
 						}
 					}
 				},
@@ -118,5 +118,5 @@
 			]
 		}
 	},
-	"description": ""
+	"description": "Virtual Reality BP Game Template-11590370"
 }
