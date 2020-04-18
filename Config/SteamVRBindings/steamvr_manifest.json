@@ -86,6 +86,10 @@
 			"type": "boolean"
 		},
 		{
+			"name": "/actions/main/in/LeftBButton",
+			"type": "boolean"
+		},
+		{
 			"name": "/actions/main/in/TeleportLeft",
 			"type": "boolean"
 		},
@@ -94,7 +98,11 @@
 			"type": "boolean"
 		},
 		{
-			"name": "/actions/main/in/LeftBButton",
+			"name": "/actions/main/in/UseLeft",
+			"type": "boolean"
+		},
+		{
+			"name": "/actions/main/in/UseRight",
 			"type": "boolean"
 		},
 		{
@@ -222,9 +230,11 @@
 			"/actions/main/in/open_console": "Open Console",
 			"/actions/main/in/GrabLeft": "GrabLeft",
 			"/actions/main/in/GrabRight": "GrabRight",
+			"/actions/main/in/LeftBButton": "LeftBButton",
 			"/actions/main/in/TeleportLeft": "TeleportLeft",
 			"/actions/main/in/TeleportRight": "TeleportRight",
-			"/actions/main/in/LeftBButton": "LeftBButton",
+			"/actions/main/in/UseLeft": "UseLeft",
+			"/actions/main/in/UseRight": "UseRight",
 			"/actions/main/in/MotionControllerThumbLeft_X,MotionControllerThumbLeft_Y X Y_axis2d": "MotionControllerThumbLeft",
 			"/actions/main/in/MotionControllerThumbRight_X,MotionControllerThumbRight_Y X Y_axis2d": "MotionControllerThumbRight",
 			"/actions/main": "Main Game Actions"
