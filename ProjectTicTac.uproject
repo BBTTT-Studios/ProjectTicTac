@@ -23,6 +23,14 @@
 			"Name": "TwitchPlay",
 			"Enabled": true,
 			"MarketplaceURL": "https://www.unrealengine.com/marketplace/twitchplay-plugin"
+		},
+		{
+			"Name": "Niagara",
+			"Enabled": true
+		},
+		{
+			"Name": "NiagaraExtras",
+			"Enabled": true
 		}
 	],
 	"TargetPlatforms": [
